@@ -59,6 +59,17 @@
             
             font-size: 3rem;
         }
+        .leftSection .btn{
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius:  7px;
+            font-size: 20px;
+            cursor: pointer;
+
+
+        }
         .rightSection img{
             width: 80%;
             
@@ -91,7 +102,7 @@
         }
         .secondSection .box{
             background: white;
-            width: 80vw;
+            width: 70vw;
             height: 2px;
             margin: 56px 0;
             display: flex;
@@ -101,8 +112,56 @@
             height: 93px;
             width: 1px;
             background-color: white;
-            margin: 0 100px;
+            margin: 0 200px;
         }
+        .image-top{
+            width: 32px;
+            position: relative;
+            top: -42px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            font-size: 20px;
+            top: 75px;
+            left: -9px;
+
+        }
+        
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 10px;
+        }
+        footer{
+            background-color: #05052c;
+            
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+            
+
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
 
 
     </style>
@@ -110,7 +169,7 @@
 <body>
     <header>
         <nav>
-            <div class="left">Ram's Portfolio</div>
+            <div class="left">Welcome to Ram's Portfolio &#128540;</div>
             <div class="right">
                 <ul>
                     <li><a href="/">Home</li></a>
@@ -131,10 +190,14 @@
                      and I am a learning 
                      <!-- <div>Web Development!</div> -->
                      <span id="element"></span>
+                     <div class="buttons">
+                        <button class="btn">Download Resume</button>
+                        <button class="btn">Github here</button>
+                     </div>
                 </div>
             </div>
             <div class="rightSection">
-                <img src="PngItem_5312066.png" alt="Web Developer" >
+                <img src="devloper.png" alt="Web Developer" >
             </div>
 
         </section>
@@ -145,16 +208,85 @@
 
 
             <div class="box">
-              <div class="vertical"></div>
-              <div class="vertical"></div>
-              <div class="vertical"></div>
-              <div class="vertical"></div>
+                <div class="vertical">
+                    <img class="image-top"   src="PngItem_5312066.png" alt="">
+                    <div class="vertical-title">
+                        Software Developer(2027-2028)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus odio sint necessitatibus eos. Distinctio atque libero commodi quas reiciendis doloribus ut non, illo sapiente quidem alias nulla temporibus a?                        
+                    </div>    
+                  </div>
+                <div class="vertical">
+                    <img class="image-top"   src="py logo.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer(2028-2030)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus odio sint necessitatibus eos. Distinctio atque libero commodi quas reiciendis doloribus ut non, illo sapiente quidem alias nulla temporibus a?   
+                    </div>  
+                  </div>
+                <div class="vertical">
+                    <img class="image-top"   src="Python-for-Data-Science_Icon.png" alt="">
+                    <div class="vertical-title">
+                        Data Scientist(2030-2034)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus odio sint necessitatibus eos. Distinctio atque libero commodi quas reiciendis doloribus ut non, illo sapiente quidem alias nulla temporibus a?
+                    </div>
+                  </div>
+                  <div class="vertical">
+                <img class="image-top"   src="business.jpeg" alt="">
+                <div class="vertical-title">
+                    Business
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus odio sint necessitatibus eos. Distinctio atque libero commodi quas reiciendis doloribus ut non, illo sapiente quidem alias nulla temporibus a?  
+                </div>
+              </div> 
             </div>
-
-
-
         </section>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ram's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    
+                </ul>
+                
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+           Copyrights &#169; www.ramportfolio.com | All Rights Reservers
+        </div>
+
+
+    </footer>
     
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
